@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+#header{
+    height: 5rem;
+    width: 100%;
+    background-color: #002244 ;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.score{
+    font-size: 2rem;
+    text-align: center;
+}
+#container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+img:active{
+    opacity:50%;
+}
+#message{
+    margin-top:4rem;
+    text-align: center; 
+}
+#msg{
+    background-color: #002244;
+    color: #ffff;
+    display:inline; 
+    padding: 1rem;
+    border-radius: 10px;
+}
